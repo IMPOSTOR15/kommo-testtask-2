@@ -6,6 +6,7 @@
 
 [Ссылка на макет в Figma](https://www.figma.com/file/Ie6w1AeY7wT3pKUT0SaoQY/Infinizai?node-id=0%3A1&mode=dev)
 
-## Технологии:
+## Используемые технологии:
 React.js
+
 CSS Modules
