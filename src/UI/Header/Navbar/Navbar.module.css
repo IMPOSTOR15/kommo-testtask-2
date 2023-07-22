@@ -1,0 +1,32 @@
+.header__navLinks {
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__navLink {
+    font-size: 16px;
+    line-height: 1.625;
+    color: var(--white);
+    text-decoration: none;
+}
+.header__navLink_active {
+    color: #FAC422;
+}
+
+@media screen and (max-width: 1430px) {
+    .header__navLinks  {
+        width: 36.1vw;
+    }
+    .header__navLink {
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__navLinks  {
+        width: 80vw;
+    }
+    .header__navLink {
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,24 @@
+.header__button {
+    width: 178px;
+    height: 62px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.66667;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+@media screen and (max-width: 1430px) {
+    .header__button  {
+        width: 12.36vw;
+        height: 4.3vw;
+        border: 0.07vw solid var(--white);
+        font-size: 1.25vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header__button  {
+        display: none;
+    }
+} 

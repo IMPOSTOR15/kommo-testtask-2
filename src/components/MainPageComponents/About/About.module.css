@@ -1,0 +1,234 @@
+.about {
+    background-color: var(--black);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.about__backgroundRectangle {
+    background-color: var(--blue);
+    width: 44.166vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: row;
+    z-index: 5;
+    padding: 291px 0 250px 0;
+    margin-left: 0;
+}
+
+.about__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 660px;
+    z-index: 50;
+}
+
+.about__socialLinks {
+    display: flex;
+    flex-direction: column;
+    transform-origin: center;
+    transform: rotate(180deg);
+    max-height: 303px;
+    margin: auto 15px auto auto;
+}
+
+.about__socialLink {
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    color: #80858F;
+    font-size: 11px;
+    line-height: 2.27273;
+    z-index: 5;
+}
+
+.about__socialLink:nth-child(2) {
+  
+    margin: 51px 0 59px 0;
+}
+.about__socialLink:nth-child(3) {
+    font-size: 10px;
+}
+
+.about__header {
+    position: relative;
+    margin: 24px 0 0 0;
+    color: var(--white);
+    font-size: 72px;
+    line-height: 1.19444;
+}
+
+.about__accent {
+    position: absolute;
+    width: 434px;
+    height: 16px;
+    top: 167px;
+    left: 219px;
+}
+
+.about__description {
+    color: var(--gray);
+    font-size: 18px;
+    line-height: 1.55556;
+    margin: 45px 0 53px 0;
+}
+
+.about__buttons {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.about__buttonColored {
+    padding: 0;
+    width: 203px;
+    height: 70px;
+    background: var(--blue);
+    margin: 0 40px 0 0;
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.55556;
+    border: none;
+    cursor: pointer;
+}
+
+.about__buttonTransparent {
+    padding: 0;
+    margin: 0;
+    margin: auto 0;
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.55556;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.about__image {
+    width: 660px;
+    height: 518px;
+    margin: auto 0;
+}
+
+
+@media screen and (max-width: 1439px) {
+    .about__content {
+        padding: 20.3vw 0 17.4vw 0;
+    }
+    .about__info {
+        max-width: 45.8vw;
+    }
+    .about__socialLinks {
+        max-height: 21vw;
+        margin: auto 1vw auto auto;
+    }
+    .about__socialLink {
+        font-size: 0.8vw;
+    }
+    .about__socialLink:nth-child(2) {
+        margin: 3.54vw 0 4.1vw 0;
+    }
+    .about__socialLink:nth-child(3) {
+        font-size: 0.7vw;
+    }
+    .about__header {
+        margin: 1.7vw 0 0 0;
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    .about__accent {
+        width: 30.14vw;
+        height: 1.11vw;
+        top: 11.60vw;
+        left: 15.21vw;
+    }
+    .about__description {
+        font-size: 1.25vw;
+        margin: 3.13vw 0 3.68vw 0;
+    }
+    .about__buttonColored {
+        width: 14vw;
+        height: 4.7vw;
+        margin: 0 2.7vw 0 0;
+        font-size: 1.25vw;
+    }
+    
+    .about__buttonTransparent {
+        font-size: 1.25vw;
+    }
+    .about__image {
+        width: 45.8vw;
+        height: 36vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    .about {
+        justify-content: flex-start;
+    }
+    .about__backgroundRectangle {
+        width: 12vw;
+    }
+    .about__buttons {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about__content {
+        padding: 20vw 0 20vw 0;
+    }
+    .about__info {
+        max-width: 70vw;
+    }
+    .about__socialLinks {
+        max-height: 21vw;
+        margin: auto 1.5vw auto 1.5vw;
+    }
+    .about__socialLink {
+        font-size: 1.5vw;
+    }
+    .about__socialLink:nth-child(2) {
+        margin: 3.5vw 0 4vw 0;
+    }
+    .about__socialLink:nth-child(3) {
+        font-size: 1.5vw;
+    }
+    .about__header {
+        margin: 1vw 0 0 0;
+        font-size: 7vw;
+        line-height: 7vw;
+        
+        max-width: 70vw;
+    }
+    .about__accent {
+        width: 40vw;
+        height: 4vw;
+        top: 12.3vw;
+        left: 22.2vw;
+    }
+    .about__description {
+        font-size: 3vw;
+        margin: 3.1vw 0 8vw 0;
+        max-width: 70vw;
+    }
+    .about__buttonColored {
+        width: 50vw;
+        height: 8vw;
+        margin: 0 4vw 0 0;
+        font-size: 2.5vw;
+    }
+    
+    .about__buttonTransparent {
+        width: 50vw;
+        height: 8vw;
+        margin: 0 4vw 0 0;
+        font-size: 2.5vw;
+    }
+    .about__image {
+        display: none;
+    }
+}

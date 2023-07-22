@@ -1,0 +1,34 @@
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    max-width: 168px;
+    height: 202px;
+}
+
+.footer__linksHeader {
+    color: var(--white);
+    margin: 0 0 24px 0;
+    font-size: 18px;
+    line-height: 1.66667;
+}
+
+@media screen and (max-width: 1430px) {
+    .footer__links {
+        max-width: 11.6vw;
+        height: 14vw;
+    }
+    .footer__linksHeader {
+        font-size: 1.25vw;
+        margin: 0 0 1.7vw 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer__links {
+        max-width: 46.7vw;
+        height: 56vw;
+    }
+    .footer__linksHeader {
+        font-size: 4.75vw;
+        margin: 0 0 1.7vw 0;
+    }
+}

@@ -1,0 +1,25 @@
+.App {
+  background-color: #222730;
+  font-family: var(--font-orbitron);
+  z-index: 0;
+}
+.fontNormal {
+  font-style: normal;
+  font-weight: 400;
+}
+.fontCapitalize {
+  text-transform: capitalize;
+}
+.fontUppercase {
+  text-transform: uppercase;
+}
+.contentWrapper {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1439px) {
+  .contentWrapper {
+    max-width: 91.67vw;
+    margin: 0 auto;
+  }
+} 

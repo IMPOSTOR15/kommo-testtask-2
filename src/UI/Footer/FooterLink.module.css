@@ -1,0 +1,18 @@
+.footer__link {
+    color: var(--gray);
+    font-size: 15px;
+    line-height: 2.5;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1430px) {
+    .footer__link {
+        font-size: 1vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer__link {
+        font-size: 3.5vw;
+    }
+}
